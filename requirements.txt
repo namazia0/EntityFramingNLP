@@ -1,0 +1,10 @@
+scikit-learn
+pandas
+python-dotenv
+nltk
+torch
+transformers
+datasets
+yacs
+matplotlib
+tqdm

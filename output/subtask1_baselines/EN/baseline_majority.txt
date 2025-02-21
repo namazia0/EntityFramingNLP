@@ -1,0 +1,100 @@
+EN_CC_100013.txt	Bill Gates	93	102	Antagonist	Conspirator
+EN_CC_100013.txt	BBC	1860	1862	Antagonist	Conspirator
+EN_CC_100013.txt	Jeffrey Epstein	2005	2019	Antagonist	Conspirator
+EN_UA_300009.txt	Fail Alsynov	176	187	Antagonist	Conspirator
+EN_UA_300009.txt	Bashkir people	1616	1629	Antagonist	Conspirator
+EN_UA_300009.txt	Bashkort	1791	1798	Antagonist	Conspirator
+EN_CC_100005.txt	Stopp Oljeletinga	1700	1716	Antagonist	Conspirator
+EN_CC_100005.txt	COP27	3657	3661	Antagonist	Conspirator
+EN_UA_014637.txt	Wagner Group	539	550	Antagonist	Conspirator
+EN_UA_014637.txt	Russia	2461	2466	Antagonist	Conspirator
+EN_UA_014637.txt	Yevgeny Prigozhin	3512	3528	Antagonist	Conspirator
+EN_UA_019640.txt	Russia	435	440	Antagonist	Conspirator
+EN_UA_019640.txt	China	446	450	Antagonist	Conspirator
+EN_UA_019640.txt	West	497	500	Antagonist	Conspirator
+EN_UA_019640.txt	International Criminal Court	845	872	Antagonist	Conspirator
+EN_UA_019640.txt	Russia	1099	1104	Antagonist	Conspirator
+EN_UA_019640.txt	China	1883	1887	Antagonist	Conspirator
+EN_UA_019640.txt	Russia	1941	1946	Antagonist	Conspirator
+EN_UA_019640.txt	Russia	2202	2207	Antagonist	Conspirator
+EN_UA_022051.txt	United Kingdom	159	172	Antagonist	Conspirator
+EN_UA_022051.txt	London	368	373	Antagonist	Conspirator
+EN_UA_022051.txt	Kiev	379	382	Antagonist	Conspirator
+EN_UA_022051.txt	UK	1781	1782	Antagonist	Conspirator
+EN_UA_004616.txt	Ukrainians	55	64	Antagonist	Conspirator
+EN_UA_004616.txt	Russians	113	120	Antagonist	Conspirator
+EN_UA_004616.txt	European countries	414	431	Antagonist	Conspirator
+EN_UA_004616.txt	Ukraine	820	826	Antagonist	Conspirator
+EN_UA_300153.txt	CIA	111	113	Antagonist	Conspirator
+EN_UA_300153.txt	CIA	251	253	Antagonist	Conspirator
+EN_UA_300153.txt	Oleksii Reznikov	1197	1212	Antagonist	Conspirator
+EN_UA_300153.txt	the World Economic Forum	1479	1502	Antagonist	Conspirator
+EN_UA_024321.txt	Yulia Navalnaya	235	249	Antagonist	Conspirator
+EN_UA_024321.txt	Moscow	1667	1672	Antagonist	Conspirator
+EN_UA_024321.txt	Moscow	2297	2302	Antagonist	Conspirator
+EN_UA_024321.txt	Russian diplomats	2401	2417	Antagonist	Conspirator
+EN_UA_000923.txt	Boris Johnson	124	136	Antagonist	Conspirator
+EN_UA_000923.txt	Putin	148	152	Antagonist	Conspirator
+EN_UA_000923.txt	Russia	501	506	Antagonist	Conspirator
+EN_UA_000923.txt	Germany	1278	1284	Antagonist	Conspirator
+EN_UA_000923.txt	EU	1466	1467	Antagonist	Conspirator
+EN_UA_000923.txt	Britain	1510	1516	Antagonist	Conspirator
+EN_UA_000923.txt	UK	1581	1582	Antagonist	Conspirator
+EN_UA_000923.txt	Brexit Britain	2047	2060	Antagonist	Conspirator
+EN_UA_300048.txt	HUNTER	74	79	Antagonist	Conspirator
+EN_UA_300048.txt	BIDEN FAMILY	114	125	Antagonist	Conspirator
+EN_UA_300129.txt	Kremlin	147	153	Antagonist	Conspirator
+EN_UA_300129.txt	Russia	358	363	Antagonist	Conspirator
+EN_UA_300129.txt	the U.S	591	597	Antagonist	Conspirator
+EN_CC_200104.txt	BBC	694	696	Antagonist	Conspirator
+EN_CC_200104.txt	Esme Stallard	916	928	Antagonist	Conspirator
+EN_CC_200104.txt	Sean Seddon	1001	1011	Antagonist	Conspirator
+EN_UA_002531.txt	Kyiv Mayor Vitali Klitschko	76	102	Antagonist	Conspirator
+EN_UA_002531.txt	Russian military	219	234	Antagonist	Conspirator
+EN_UA_002531.txt	Russian forces	258	271	Antagonist	Conspirator
+EN_UA_002531.txt	Klitschko	456	464	Antagonist	Conspirator
+EN_UA_002531.txt	Klitschko	717	725	Antagonist	Conspirator
+EN_UA_002531.txt	Mayor Matveev Sergeevich	1279	1302	Antagonist	Conspirator
+EN_UA_002531.txt	Mayor Ivan Fedorov	1346	1363	Antagonist	Conspirator
+EN_UA_002531.txt	Russian invaders	1616	1631	Antagonist	Conspirator
+EN_UA_002531.txt	Russians	1917	1924	Antagonist	Conspirator
+EN_UA_002668.txt	Vlad Putin	230	239	Antagonist	Conspirator
+EN_UA_002668.txt	Ukrainians	853	862	Antagonist	Conspirator
+EN_UA_002668.txt	Putin	1269	1273	Antagonist	Conspirator
+EN_UA_002668.txt	Russia	1589	1594	Antagonist	Conspirator
+EN_UA_002668.txt	Putin	1750	1754	Antagonist	Conspirator
+EN_UA_025652.txt	the West	858	865	Antagonist	Conspirator
+EN_UA_025652.txt	US-	1095	1097	Antagonist	Conspirator
+EN_UA_025652.txt	West	1114	1117	Antagonist	Conspirator
+EN_UA_014413.txt	GRU	1660	1662	Antagonist	Conspirator
+EN_CC_100076.txt	Reuters	129	135	Antagonist	Conspirator
+EN_CC_100076.txt	Daily Sceptic	176	188	Antagonist	Conspirator
+EN_CC_100076.txt	Walt Meier	843	852	Antagonist	Conspirator
+EN_CC_100076.txt	Daily Sceptic	1307	1319	Antagonist	Conspirator
+EN_UA_013710.txt	ICC	207	209	Antagonist	Conspirator
+EN_UA_013710.txt	Max Boot	314	321	Antagonist	Conspirator
+EN_UA_013710.txt	Putin	399	403	Antagonist	Conspirator
+EN_UA_013710.txt	Iraq	625	628	Antagonist	Conspirator
+EN_UA_013710.txt	ICC	738	740	Antagonist	Conspirator
+EN_UA_013710.txt	Vietnamese children	1049	1067	Antagonist	Conspirator
+EN_UA_028103.txt	Russian intelligence	296	315	Antagonist	Conspirator
+EN_UA_028103.txt	Armin Papperger	344	358	Antagonist	Conspirator
+EN_UA_028103.txt	Russian government	811	828	Antagonist	Conspirator
+EN_UA_028103.txt	Moscow	2787	2792	Antagonist	Conspirator
+EN_CC_100004.txt	Al Gore	328	334	Antagonist	Conspirator
+EN_CC_100004.txt	China	565	569	Antagonist	Conspirator
+EN_CC_100004.txt	ete Buttigieg	2715	2727	Antagonist	Conspirator
+EN_UA_300050.txt	Brussels	84	91	Antagonist	Conspirator
+EN_CC_100014.txt	Bill Gates	567	576	Antagonist	Conspirator
+EN_CC_100014.txt	Purina's Dumor	2271	2284	Antagonist	Conspirator
+EN_CC_100014.txt	Tractor Supply's Producer's Pride	2296	2328	Antagonist	Conspirator
+EN_CC_100014.txt	Conservatives	2930	2942	Antagonist	Conspirator
+EN_CC_100014.txt	Republicans	2948	2958	Antagonist	Conspirator
+EN_UA_300018.txt	Armed Forces of Ukraine	476	498	Antagonist	Conspirator
+EN_CC_100091.txt	Greta Thunberg	216	229	Antagonist	Conspirator
+EN_CC_200152.txt	Pentagon	398	405	Antagonist	Conspirator
+EN_CC_200152.txt	Gov. DeSantis	3781	3793	Antagonist	Conspirator
+EN_CC_200337.txt	The Met Office	148	161	Antagonist	Conspirator
+EN_CC_200337.txt	Claire Nasir	2395	2406	Antagonist	Conspirator
+EN_UA_300040.txt	Ukrainian government	412	431	Antagonist	Conspirator
+EN_UA_300040.txt	Ukraine	888	894	Antagonist	Conspirator
