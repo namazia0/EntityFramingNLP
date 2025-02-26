@@ -75,8 +75,3 @@ Ensure TabbyAPI is running locally or update the API URL in the code.
 - `LANGUAGE`: English (EN) or Portuguese (PT) dataset
 - `CONTEXT`: adding additional context for the extracted sentence (CONTEXT=1) or just using the sentence for prediction (CONTEXT=0) (default: 1)
 - `IN_CONTEXT_LEARNING`: whicht in-context learning strategy you want to apply (zero-shot=0, one-shot=1, few-shot=2, chain-of-thought=3) (default: 0)
-
-
-# License
-
-MIT License
