@@ -1,4 +1,4 @@
-# Multilingual Entity Framing - Narrative Role Classification
+# Multilingual Entity Framing (Narrative Role Classification)
 
 This work solves the first subtask of [Semeval NLP 2025](https://propaganda.math.unipd.it/semeval2025task10/) (last accessed 21/02/2025) and was developed as part of a university NLP lecture from November 2024 to January 2025.
 
