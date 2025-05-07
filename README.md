@@ -5,7 +5,7 @@ This work solves the first subtask of [Semeval NLP 2025](https://propaganda.math
 # Task Definition
 Given a news article and a list of mentions of named entities (NEs) in the article, assign for each such mention one or more roles using a predefined taxonomy of fine-grained roles covering three main type of roles: protagonists, antagonists, and innocent. This is a multi-label multi-class text-span classification task.
 
-# Input:
+# Input
 - News Article
 - Entity mention
 - Offset
