@@ -1,6 +1,6 @@
 # Multilingual Entity Framing (Narrative Role Classification)
 
-This work solves the first subtask of [Semeval NLP 2025](https://propaganda.math.unipd.it/semeval2025task10/) (last accessed 21/02/2025) and was developed as part of a university NLP lecture from November 2024 to January 2025.
+This work solves the first subtask of [Semeval NLP 2025](https://propaganda.math.unipd.it/semeval2025task10/) (last accessed 21/02/2025) and was developed as part of a university NLP lecture from November 2024 to January 2025 with another student.
 
 # Task Definition
 Given a news article and a list of mentions of named entities (NEs) in the article, assign for each such mention one or more roles using a predefined taxonomy of fine-grained roles covering three main type of roles: protagonists, antagonists, and innocent. This is a multi-label multi-class text-span classification task.
