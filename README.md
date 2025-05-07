@@ -11,7 +11,7 @@ Given a news article and a list of mentions of named entities (NEs) in the artic
 - Offset
 
 ## Tasks
-1. Dataset Analysis and Preprocessing (focus on two languages: English (EN) and Portuguese (PT))
+1. Dataset analysis and pre-processing (focus on two languages: English (EN) and Portuguese (PT))
 2. Transformer-based approach -> RoBERTa, XLNet, LLM
 3. Evaluation Metrics (Accuracy, macro F1, micro F1, Exact Match Ratio (EMR))
 
@@ -28,7 +28,7 @@ source env/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-## How to run RoBERTa
+## How to run RoBERTa approach
 ### Training and prediction
 ```bash
 python run.py --train_file [path_to_training_set] --dev_file [path_to_test_set] --output_dir [path_to_logging_dir] --model_name [architecture]
@@ -46,7 +46,7 @@ To log the output to a file in addition to the console:
 python scorer.py -g path/to/gold.tsv -p path/to/pred.tsv -l
 ```
 
-## How to run LLM (Llama)
+## How to run LLM approach
 ### Use the generated context with the extracted sentence or only the extracted sentence
 ```bash
 python models/llm/llm_context.py
