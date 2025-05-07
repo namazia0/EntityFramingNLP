@@ -272,8 +272,3 @@ if __name__ == '__main__':
         logger.addHandler(ch)
         
     main(args.gold_file_path, args.pred_file_path)
-
-## From semeval website:
-# The leaderboard will evaluate predictions for both main_role and fine_grained_roles, however, the official evaluation metric is for the fine_grained_roles.
-# Note that main_role should take only one of three values from the 1st level of the taxonomy, while fine_grained_roles should take one or more values from the 2nd level of the taxonomy.
-# If you chose not to train a model to predict main_role, you still need to provide a proper value under main_role to pass the format checker code in the scorer.
