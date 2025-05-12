@@ -17,10 +17,7 @@ class ProcessArticle():
         with open(file_path, 'r', encoding='utf-8') as file:
             lines = file.readlines()
         
-        # Skip the first line
-        lines_without_first = lines[1:]
-        
-        # Join the remaining lines into a single string and remove all newline characters
+        lines_without_first = lines[1:]        
         content = ''.join(lines_without_first).replace('\n', '')
         
         return content
@@ -61,11 +58,7 @@ def main():
                         'Forgotten', 'Exploited', 'Victim', 'Scapegoat']
 
     output_file = "./prediction_llm_tests.txt"
-    # val set
     dev_file = f"./dataset/dev_4_december/{language}/subtask-1-entity-mentions.txt"      
-    # test set
-    # test_file = "./EN_test/subtask-1-entity-mentions.txt"
-    # entity_mentions = "./EN_test/subtask-1-entity-mentions.txt"
 
     accuracy_list = []
     micro_f1_list = []
@@ -81,10 +74,7 @@ def main():
         role = []
         sub_role = []
         for entity in entities:
-            # print(f"File: {entity['file_name']}, Entity: {entity['entity']}, Start: {entity['start_offset']}, End: {entity['end_offset']}")
-
             article_path = f"./dataset/dev_4_december/{language}/subtask-1-documents/{entity['file_name']}"     # validation set
-            # article_path = f"./EN_test/subtask-1-documents/{entity['file_name']}"     # test set
 
             start_offset = entity['start_offset']
             end_offset = entity['end_offset']

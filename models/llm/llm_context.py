@@ -100,11 +100,7 @@ def main():
                         'Forgotten', 'Exploited', 'Victim', 'Scapegoat']
 
     output_file = "./prediction_llm_tests.txt"
-    # val set
     dev_file = f"./dataset/dev_4_december/{language}/subtask-1-entity-mentions.txt"      
-    # test set
-    # test_file = "./EN_test/subtask-1-entity-mentions.txt"
-    # entity_mentions = "./EN_test/subtask-1-entity-mentions.txt"
 
     accuracy_list = []
     micro_f1_list = []

@@ -6,15 +6,10 @@ import json
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# metric score should be the string name of the coloumb in the metric_scores
-# options are: micro_f1, main_role_accuracy, emr, micro_precision, micro_recall
-
 def get_average_general_new(metric_score ,file_folder, threshold_list, lr_list, batchsize_list, epoch_list):
-
     averages = {}
     max = 0
     max_keys = {}
-
 
     for index, threshold in enumerate(threshold_list):
         averages[threshold] = {}
@@ -148,14 +143,9 @@ def get_most_frequent_roles_new(file_folder, threshold_list, lr_list, batchsize_
                                   lr) + "_epochs_" + str(epochs) + "_batchsize_" + str(batchsize) + "_iteration_" + str(
                                   iteration) + ".tsv")
                         csvFile = pd.read_csv(file_folder + "/" + file_folder + "_threshold_" + str(threshold) + "_lr_" + str(lr) + "_epochs_" + str(epochs) + "_batchsize_" + str(batchsize) + "_iteration_" + str(iteration) + ".tsv", sep="\t")
-
-
                         num_rows = csvFile.shape[0]
 
                         for index, line in csvFile.iterrows():
-                            #print("index: ",index)
-                            #print("line: ", line)
-
                             if csvFile["main_role"][index] in role_dict[threshold][lr][epochs][batchsize]["main_role"].keys() :
                                 role_dict[threshold][lr][epochs][batchsize]["main_role"][csvFile["main_role"][index]] =  role_dict[threshold][lr][epochs][batchsize]["main_role"][csvFile["main_role"][index]] +1
                             else:

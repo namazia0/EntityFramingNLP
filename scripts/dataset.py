@@ -228,7 +228,7 @@ class Dataset():
         return self.df
 
 if __name__ == '__main__':
-    df = load_data_2("C:\\Users\hamml\PycharmProjects\entity-framing-nlp\dataset\\train_4_december\EN\subtask-1-annotations.txt")
+    df = load_data_2("C:\\Users\namazia0\PycharmProjects\entity-framing-nlp\dataset\\train_4_december\EN\subtask-1-annotations.txt")
 
     for item in df["fine_grained_roles"]:
         print("item: ",item)

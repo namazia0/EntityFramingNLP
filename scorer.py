@@ -129,9 +129,6 @@ def check_file_format(gold_dict, pred_dict):
         logger.error(error_message)
         errors.append(error_message)
 
-    # gold_main_roles = set(main_role for main_role, _ in gold_dict.values())
-    # gold_fine_grained_roles = set(role for _, roles in gold_dict.values() for role in roles)
-
     if gold_dict.keys() != pred_dict.keys():
         missing_in_pred = set(gold_dict.keys()) - set(pred_dict.keys())
         extra_in_pred = set(pred_dict.keys()) - set(gold_dict.keys())
@@ -178,14 +175,9 @@ def evaluate_fine_grained_metrics(gold_dict, pred_dict):
     logger.info("Evaluating fine-grained metrics.")
     mlb = MultiLabelBinarizer()
 
-
-
-    #print("set1: ",set(role for (_, roles) in gold_dict.values() for role in roles))
-    #print("set2: ", set(role for (_, roles) in pred_dict.values() for role in roles))
-    
     all_labels = set(role for (_, roles) in gold_dict.values() for role in roles) | \
                  set(role for (_, roles) in pred_dict.values() for role in roles)
-    #print("all_labels: ",all_labels)
+
     mlb.fit([list(all_labels)])  # Fit the MultiLabelBinarizer
     
     gold_values = [mlb.transform([roles])[0] for _, roles in gold_dict.values()]

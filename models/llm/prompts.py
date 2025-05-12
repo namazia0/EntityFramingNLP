@@ -18,7 +18,6 @@ class Prompts:
         with open("../tabbyAPI/config.yml", "r") as file:
             config = yaml.safe_load(file)
         llm_model = config["model"]["model_name"]
-        # print("llm model: ", llm_model)
 
         if not self.tabby_api_key:
             raise ValueError("API key is not set in the environment variable TABBY_API_KEY.")
