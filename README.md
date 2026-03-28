@@ -1,6 +1,6 @@
-# Multilingual Entity Framing (Narrative Role Classification)
+# NLP - Multilingual Entity Framing (Narrative Role Classification)
 
-This work solves the first subtask of [Semeval NLP 2025](https://propaganda.math.unipd.it/semeval2025task10/) (last accessed 21/02/2025) and was developed as part of a university NLP lecture from November 2024 to January 2025 with another student. This project accounted for 40% of the final grade.
+This work solves the first subtask of [Semeval NLP 2025](https://propaganda.math.unipd.it/semeval2025task10/) and was developed as part of the NLP lecture at the University of Bonn from November 2024 to January 2025 together with another student. This project accounted for 40% of the final grade.
 
 # Task Definition
 Given a news article and a list of mentions of named entities (NEs) in the article, assign for each such mention one or more roles using a predefined taxonomy of fine-grained roles covering three main type of roles: protagonists, antagonists, and innocent. This is a multi-label multi-class text-span classification task. We applied BERT and LLMs separately to solve this problem.
@@ -13,7 +13,7 @@ Given a news article and a list of mentions of named entities (NEs) in the artic
 
 ## Tasks
 1. Dataset analysis and pre-processing (focus on two languages: English (EN) and Portuguese (PT))
-2. Transformer-based approach -> RoBERTa, XLNet, LLM
+2. Transformer-based approach -> BERT, RoBERTa, XLNet, LLM
 3. Evaluation Metrics (Accuracy, macro F1, micro F1, Exact Match Ratio (EMR))
 
 
@@ -29,14 +29,14 @@ source env/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-## How to run RoBERTa approach
+## How to run BERT approach
 ### Training and prediction
 ```bash
 python run.py --train_file [path_to_training_set] --dev_file [path_to_test_set] --output_dir [path_to_logging_dir] --model_name [architecture]
 ```
 Example:
 ```bash
-python run.py --train_file dataset/combined/subtask-1-annotations.txt --dev_file dataset/dev_4_december/EN/subtask-1-annotations.txt --output_dir output/RoBERTa/EN --model_name roberta
+python run.py --train_file dataset/combined/subtask-1-annotations.txt --dev_file dataset/dev_4_december/EN/subtask-1-annotations.txt --output_dir output/BERT/EN --model_name bert
 ```
 ### Scorer
 ```bash
